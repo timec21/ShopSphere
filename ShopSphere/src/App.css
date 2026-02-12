@@ -36,6 +36,83 @@
 
 
 
+.page {
+  padding-top: 90px;
+  padding-left: 24px;
+  padding-right: 24px;
+}
+
+.page-title {
+  color: white;
+  margin-bottom: 18px;
+}
+
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 18px;
+}
+
+.product-card {
+  background: #111827;
+  border: 1px solid rgba(255,255,255,0.08);
+  border-radius: 14px;
+  padding: 14px;
+  color: white;
+}
+
+.product-card__top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+}
+
+.product-title {
+  margin: 0;
+  font-size: 18px;
+}
+
+.badge {
+  background: rgba(34,197,94,0.18);
+  color: #22c55e;
+  padding: 4px 10px;
+  border-radius: 999px;
+  font-size: 12px;
+  border: 1px solid rgba(34,197,94,0.35);
+}
+
+.product-price {
+  margin: 10px 0 14px;
+  font-size: 16px;
+  opacity: 0.95;
+}
+
+.product-actions {
+  display: flex;
+  gap: 10px;
+}
+
+.btn {
+  border: none;
+  padding: 10px 12px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.btn-secondary {
+  background: rgba(255,255,255,0.10);
+  color: white;
+}
+
+.btn-danger {
+  background: rgba(239,68,68,0.18);
+  color: #fecaca;
+  border: 1px solid rgba(239,68,68,0.35);
+}
+
+
+
 
 
 
